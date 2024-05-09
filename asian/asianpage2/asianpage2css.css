@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+#pagewrapper {
+    text-align: center;
+    color: white;
+    width: 100vw;
+    height: 100%;
+    margin: auto;
+}
+
+
+#homepageSection {
+    position: relative;
+    height: 120vh;
+    z-index: 1;
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("src/asianfood.jpg");
+    margin-bottom: 3%;
+}
+
+
+header {
+    color: transparent;
+}
+
+
+nav {
+    position: absolute;
+    z-index: 2;
+    top: 10%;
+    width: 100%;
+}
+
+
+nav ul {
+    list-style: none;
+    font-size: calc(2px + 2vw);
+    padding-left: 0;
+}
+
+
+nav li {
+    display: inline;
+    margin: 0 5%;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+
+}
+
+#homepageSection h3 {
+    position: absolute;
+    z-index: 2;
+    font-size: calc(10px + 2vw);
+    font-family: 'Playfair Display', serif;
+    color: white;
+    align-self: center;
+    left: 19%;
+    right: -30%;
+    width: 60%;
+    bottom: 42%;
+}
+
+#homepageSection h2 {
+    position: absolute;
+    z-index: 2;
+    padding: 0 0;
+    font-size: calc(6px + 2vw);
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+    align-self: center;
+    left: 19%;
+    right: -30%;
+    width: 60%;
+    bottom: 30%;
+}
+
+footer {
+    color: black;
+}
+
+h1 {
+    background: linear-gradient(to right, black, green, greenyellow, green, black);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Playfair Display', serif;
+}
+
+#JiangNanBoston{
+    display: inline;
+}
+
+
+#res1image img {
+    max-width: 80%;
+    height: auto;
+    max-height: 100%;
+    border-radius: 5vw;
+    box-shadow: 0 0 3vw rgba(0, 0, 0, 0.1);
+}
+
+#res2image img {
+    max-width: 80%;
+    height: auto;
+    max-height: 100%;
+    border-radius: 5vw;
+    box-shadow: 0 0 3vw rgba(0, 0, 0, 0.1);
+}
+
+
+#res2text {
+    flex: 1;
+}
+
+
+#res2text h1 {
+    font-size: calc(2px + 2vw);
+    margin-bottom: 3%;
+    color: #333;
+}
+
+
+#res2text p {
+    font-size: calc(1px + 1vw);
+    line-height: 1.6;
+    margin-bottom: 3%;
+    color: #666;
+}
+
+
+#res2text strong {
+    font-weight: bold;
+    color: #333;
+}
+
+
+#buttonContainer a {
+    display: inline-block;
+    padding: 2% 4%;
+    font-size: calc(6px + 1vw);
+    background: linear-gradient(to right, green, greenyellow, lightyellow);
+    color: black;
+    text-decoration: none;
+    margin-right: 2%;
+    border-radius: 5vw;
+    margin-top: 2%;
+    transition: background-color 0.3s ease;
+}
+
+#buttonContainer a:hover {
+    background: linear-gradient(to left, green, greenyellow, lightyellow);
+    color: black;
+}
+
+footer {
+    background: linear-gradient(to right, white, orange, white, red, yellow);
+}
+
+footer p {
+    text-align: center;
+    color: black;
+    width: 100%;
+    padding: 2%;
+    margin-top: 10%;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    margin-bottom: 2%;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.buttonforpage {
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 1% 2%;
+    width: 100%;
+    font-size: calc(10px + 1vw);
+}
+
+.buttonforpage:hover {
+    color: white;
+    text-decoration: none;
+    padding: 1% 2%;
+    background: linear-gradient(to left, black, grey, white);
+}
+
+@media screen and (max-width: 1000px) {
+    nav a {
+        font-size: calc(11px + 1vw);
+    }
+}
