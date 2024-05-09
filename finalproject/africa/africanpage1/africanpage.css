@@ -1,0 +1,531 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+#pagewrapper {
+    text-align: center;
+    color: white;
+    width: 100vw;
+    height: 100%;
+    margin: auto;
+}
+
+
+#homepageSection {
+    position: relative;
+    height: 120vh;
+    z-index: 1;
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("src/africanhomepage.jpg");
+    margin-bottom: 3%;
+}
+
+
+header {
+    color: transparent;
+}
+
+
+nav {
+    position: absolute;
+    z-index: 2;
+    top: 10%;
+    width: 100%;
+}
+
+
+nav ul {
+    list-style: none;
+    font-size: calc(2px + 2vw);
+    padding-left: 0;
+}
+
+
+nav li {
+    display: inline;
+    margin: 0 5%;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+
+#homepageSection h3 {
+    position: absolute;
+    z-index: 2;
+    font-size: calc(10px + 2vw);
+    font-family: 'Playfair Display', serif;
+    color: white;
+    align-self: center;
+    left: 25%;
+    right: 25%;
+    width: 50%;
+    bottom: 42%;
+}
+
+
+#homepageSection h2 {
+    position: absolute;
+    z-index: 2;
+    padding: 0 0;
+    font-size: calc(6px + 2vw);
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+    align-self: center;
+    left: 19%;
+    right: -30%;
+    width: 60%;
+    bottom: 30%;
+}
+
+
+
+
+footer {
+    color: black;
+}
+
+
+#betweener {
+    background: linear-gradient(to right, saddlebrown, orange, saddlebrown);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Playfair Display', serif;
+    font-size: calc(10px + 1vw);
+}
+
+
+.sectionobosa {
+    background: linear-gradient(to bottom, #FFD700, #FFA500, #FF4500);
+    color: white;
+    height: 110vh;
+    text-align: center;
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#sectionobosaimg {
+    height: 40%;
+    background: url("src/obosa.jpg") center/cover no-repeat;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 3%;
+}
+
+
+.sectionobosatext {
+    width: 80%; /* Adjust the width as needed */
+    margin: 10%; /* Center the div horizontally */
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+
+.sectionobosa p {
+    font-family: 'Cormorant Garamond', serif;
+    color: black;
+    font-size: calc(5px + 1vw);
+}
+
+
+#buttonobosa:hover {
+    color: white;
+    text-decoration: none;
+    padding: 1% 4%;
+    background: black;
+}
+
+
+#buttonobosa {
+    color: black;
+    text-decoration: none;
+    padding: 1% 4%;
+    background: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: calc(6px + 1vw)
+}
+
+
+#betweenerfasika {
+    background: linear-gradient(to right, saddlebrown, orange, saddlebrown);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Playfair Display', serif;
+    font-size: calc(10px + 1vw);
+}
+
+
+.sectionfasika {
+    background: linear-gradient(to bottom, #FF4500, #FFA500, #FFD700);
+    color: white;
+    height: 104vh;
+    text-align: center;
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#sectionfasikaimg {
+    height: 40%;
+    background: url("src/fasika.jpg") center/cover no-repeat;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 3%;
+}
+
+
+.sectionfasikatext {
+    width: 80%; /* Adjust the width as needed */
+    margin: 10%; /* Center the div horizontally */
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+
+.sectionfasika p {
+    font-family: 'Cormorant Garamond', serif;
+    color: black;
+    font-size: calc(5px + 1vw);
+}
+
+
+#buttonfasika:hover {
+    color: white;
+    text-decoration: none;
+    padding: 1% 4%;
+    background: black;
+}
+
+
+#buttonfasika {
+    color: black;
+    text-decoration: none;
+    padding: 1% 4%;
+    background: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: calc(6px + 1vw)
+}
+
+
+#betweenercesaria {
+    background: linear-gradient(to right, saddlebrown, orange, saddlebrown);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Playfair Display', serif;
+    font-size: calc(10px + 1vw);
+}
+
+
+.sectioncesaria {
+    background: linear-gradient(to bottom, #FFD700, #FFA500, #FF4500);
+    color: white;
+    height: 110vh;
+    text-align: center;
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#sectioncesariaimg {
+    height: 40%;
+    background: url("src/cesaria.jpg") center/cover no-repeat;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 3%;
+}
+
+
+.sectioncesariatext {
+    width: 80%; /* Adjust the width as needed */
+    margin: 10%; /* Center the div horizontally */
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+
+.sectioncesaria p {
+    font-family: 'Cormorant Garamond', serif;
+    color: black;
+    font-size: calc(5px + 1vw);
+}
+
+
+#buttoncesaria:hover {
+    color: white;
+    text-decoration: none;
+    padding: 1% 4%;
+    background: black;
+}
+
+#buttoncesaria {
+    color: black;
+    text-decoration: none;
+    padding: 1% 4%;
+    background: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: calc(6px + 1vw)
+}
+
+#betweeneredred {
+    background: linear-gradient(to right, saddlebrown, orange, saddlebrown);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Playfair Display', serif;
+    font-size: calc(10px + 1vw);
+}
+
+.sectionredred {
+    background: linear-gradient(to bottom, #FF4500, #FFA500, #FFD700);
+    color: white;
+    height: 115vh;
+    text-align: center;
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+#sectioncredredimg {
+    height: 40%;
+    background: url("src/redred.jpg") center/cover no-repeat;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 3%;
+}
+
+.sectionredredtext {
+    width: 80%; /* Adjust the width as needed */
+    margin: 10%; /* Center the div horizontally */
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.sectionredred p {
+    font-family: 'Cormorant Garamond', serif;
+    color: black;
+    font-size: calc(5px + 1vw);
+    top: 10%;
+}
+
+#buttonredred {
+    color: black;
+    text-decoration: none;
+    padding: 1% 4%;
+    background: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: calc(6px + 1vw)
+}
+
+#buttonredred:hover {
+    color: white;
+    text-decoration: none;
+    padding: 1% 4%;
+    background: black;
+}
+
+#betweenerkaribu {
+    background: linear-gradient(to right, saddlebrown, orange, saddlebrown);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Playfair Display', serif;
+    font-size: calc(10px + 1vw);
+}
+
+.sectionkaribu {
+    background: linear-gradient(to bottom, #FFD700, #FFA500, #FF4500);
+    color: white;
+    height: 110vh;
+    text-align: center;
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionkaribu {
+    margin-bottom: 10%;
+}
+
+#sectionkaribuimg {
+    height: 40%;
+    background: url("src/karibu.jpg") center/cover no-repeat;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 3%;
+}
+
+.sectionkaributext {
+    width: 80%; /* Adjust the width as needed */
+    margin: 10%; /* Center the div horizontally */
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.sectionkaribu p {
+    font-family: 'Cormorant Garamond', serif;
+    color: black;
+    font-size: calc(5px + 1vw);
+    top: 10%;
+}
+
+#buttonkaribu {
+    color: black;
+    text-decoration: none;
+    padding: 1% 4%;
+    background: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: calc(6px + 1vw)
+}
+
+#buttonkaribu:hover {
+    color: white;
+    text-decoration: none;
+    padding: 1% 4%;
+    background: black;
+}
+
+
+footer {
+    background: linear-gradient(to right, black, saddlebrown, orange, white);
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    padding: 2%;
+    margin: 2% auto;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.buttonforpage {
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 1% 2%;
+    width: 100%;
+    font-size: calc(10px + 1vw);
+}
+
+.buttonforpage:hover {
+    color: black;
+    text-decoration: none;
+    padding: 1% 3%;
+    background: linear-gradient(to bottom, #FFD700, #FFA500, #FF4500);
+}
+
+@media screen and (max-width: 1000px) {
+    nav a {
+        font-size: calc(11px + 1vw);
+    }
+
+    #button {
+        font-size: calc(8px + 1vw);
+    }
+
+    .sectionobosa {
+        max-width: 80%;
+        margin-left: 9%;
+        height: 100vh;
+    }
+
+    .sectionobosa p {
+        font-size: small;
+        width: 80%;
+        margin-left: 9%;
+    }
+
+    #buttonobosa {
+        font-size: calc(7px + 1vw);
+    }
+
+    .sectionfasika {
+        max-width: 80%;
+        margin-left: 9%;
+        height: 110vh;
+    }
+
+    .sectionfasika p {
+        font-size: small;
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    #buttonfasika {
+        font-size: calc(7px + 1vw); /* Adjust the font size for smaller screens */
+    }
+
+    .sectioncesaria {
+        max-width: 80%;
+        margin-left: 9%;
+        height: 120vh;
+    }
+
+    .sectioncesaria p {
+        font-size: small;
+        width: 55%;
+        margin-left: 22%;
+    }
+
+    #buttonfasika {
+        font-size: calc(7px + 1vw);
+    }
+
+    .sectionredred {
+        max-width: 80%;
+        margin-left: 9%;
+        height: 120vh;
+    }
+
+    .sectionredred p {
+        font-size: small;
+        width: 70%;
+        margin-left: 16%;
+    }
+
+    #buttonredred {
+        font-size: calc(7px + 1vw);
+    }
+
+    .sectionkaribu {
+        max-width: 80%;
+        margin-left: 9%;
+        height: 120vh;
+    }
+
+    .sectionkaribu p {
+        font-size: small;
+        width: 65%;
+        margin-left: 17%;
+    }
+
+    #buttonredred {
+        font-size: calc(7px + 1vw);
+    }
+}

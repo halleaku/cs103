@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#pagewrapper {
+    text-align: center;
+    color: white;
+    width: 100vw;
+    height: 100%;
+    margin: auto;
+}
+
+#homepageSection {
+    position: relative;
+    height: 120vh;
+    z-index: 1;
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../asianpage1/src/asianfood.jpg");
+    margin-bottom: 3%;
+}
+
+header {
+    color: transparent;
+}
+
+nav {
+    position: absolute;
+    z-index: 2;
+    color: black;
+    top: 10%;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    font-size: calc(2px + 2vw);
+    padding-left: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 5%;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+
+}
+
+#homepageSection h3 {
+    position: absolute;
+    z-index: 2;
+    font-size: calc(10px + 2vw);
+    font-family: 'Playfair Display', serif;
+    color: white;
+    align-self: center;
+    left: 19%;
+    right: -30%;
+    width: 60%;
+    bottom: 42%;
+}
+
+#homepageSection h2 {
+    position: absolute;
+    z-index: 2;
+    padding: 0 0;
+    font-size: calc(6px + 2vw);
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+    align-self: center;
+    left: 19%;
+    right: -30%;
+    width: 60%;
+    bottom: 30%;
+}
+
+
+footer {
+    color: black;
+}
+
+#JiangNanBoston{
+    display: inline;
+}
+
+.restaurant1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+    background: linear-gradient(to right, black, grey, white, white);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#res1all {
+    flex: 1;
+    margin-right: 20px;
+}
+
+
+#res1image img {
+    max-width: 120%;
+    height: auto;
+    max-height: 200px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+#res1text {
+    flex: 1;
+}
+
+
+ h1 {
+    font-size: 28px;
+    margin-bottom: 12px;
+    font-family: 'Playfair Display', serif;
+}
+
+
+#res1text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+    font-family: 'Cormorant Garamond', serif;
+    color: black;
+}
+
+
+#res1text strong {
+    font-weight: bold;
+    color: black;
+}
+
+
+#res1text a {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 12px;
+}
+
+
+#res1text a:hover {
+    background: linear-gradient(to left, red, orange, lightyellow, orange, red);
+    color: black;
+}
+
+
+.restaurant2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+    background: linear-gradient(to left, black, grey, white, white);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#res2all {
+    flex: 1;
+    margin-right: 20px;
+}
+
+
+#res2image img {
+    max-width: 100%;
+    height: auto;
+    max-height: 200px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+#res2text {
+    flex: 1;
+}
+
+
+#res2text h1 {
+    font-size: 28px;
+    margin-bottom: 12px;
+    color: white;
+}
+
+
+#res2text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+}
+
+
+#res2text strong {
+    font-weight: bold;
+    color: white;
+}
+
+
+#res2text a {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    background: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 12px;
+    transition: background-color 0.3s ease;
+}
+
+
+#res2text a:hover {
+    background: linear-gradient(to left, red, orange, lightyellow, orange, red);
+}
+
+
+.restaurant3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+    background: linear-gradient(to right, black, grey, white, white);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#res3all {
+    flex: 1;
+    margin-right: 20px;
+}
+
+
+#res3image img {
+    max-width: 50%;
+    height: auto;
+    max-height: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+#res3text {
+    flex: 1;
+}
+
+
+#res3text h1 {
+    font-size: 28px;
+    margin-bottom: 12px;
+    color: black;
+}
+
+
+#res3text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+    font-family: 'Cormorant Garamond', serif;
+    color: black;
+}
+
+
+#res3text strong {
+    font-weight: bold;
+    color: black;
+}
+
+
+#res3text a {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 12px;
+    transition: background-color 0.3s ease;
+}
+
+
+#res3text a:hover {
+    background: linear-gradient(to left, red, orange, lightyellow, orange, red);
+    color: black;
+}
+
+
+.restaurant4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+    background: linear-gradient(to left, black, grey, white, white);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#res4all {
+    flex: 1;
+    margin-right: 20px;
+}
+
+
+#res4image img {
+    max-width: 100%;
+    height: auto;
+    max-height: 200px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+#res4text {
+    flex: 1;
+}
+
+
+#res4text h1 {
+    font-size: 28px;
+    margin-bottom: 12px;
+    color: white;
+}
+
+
+#res4text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+}
+
+
+#res4text strong {
+    font-weight: bold;
+    color: white;
+}
+
+#res4text a {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    background: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 12px;
+    transition: background-color 0.3s ease;
+}
+
+#res4text a:hover {
+    background: linear-gradient(to left, red, orange, lightyellow, orange, red);
+}
+
+footer {
+    background: linear-gradient(to right, white, orange, white, red, yellow);
+}
+
+footer p {
+    text-align: center;
+    color: black;
+    padding: 2%;
+    margin: 2% auto;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 1000px) {
+    nav a {
+        font-size: calc(11px + 1vw);
+    }
+}
+
+.buttonforpage {
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 1% 2%;
+    width: 100%;
+    font-size: calc(10px + 1vw);
+}
+
+
+.buttonforpage:hover {
+    color: black;
+    text-decoration: none;
+    padding: 1% 2%;
+    background: linear-gradient(to left, green, greenyellow, lightyellow);
+}

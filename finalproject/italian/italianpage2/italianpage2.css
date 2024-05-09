@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#page-wrapper {
+    text-align: center;
+    color: #EADBC8;
+    width: 100vw;
+    height: 100%;
+    margin: auto;
+}
+
+#container {
+    position: relative;
+    height: 120vh;
+    z-index: 1;
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../italianpage2/src/italiantopsection2.jpg");
+}
+
+header {
+    color: transparent;
+}
+
+nav {
+    position: absolute;
+    z-index: 2;
+    color: black;
+    top: 10%;
+    width: 100%;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+nav ul {
+    list-style: none;
+    font-size: calc(2px + 2vw);
+    padding-left: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 5%;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+#container h3 {
+    position: absolute;
+    z-index: 2;
+    font-size: calc(10px + 2vw);
+    font-family: 'Playfair Display', serif;
+    color: white;
+    align-self: center;
+    left: 19%;
+    right: -30%;
+    width: 60%;
+    bottom: 42%;
+}
+
+#container h2 {
+    position: absolute;
+    z-index: 2;
+    padding: 0 0;
+    font-size: calc(6px + 2vw);
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+    align-self: center;
+    left: 19%;
+    right: -30%;
+    width: 60%;
+    bottom: 30%;
+}
+
+
+main{
+    background-color: white;
+}
+
+
+main p{
+    color: black;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-bottom: 5%;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.first{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    background: linear-gradient(to right, mistyrose, white);
+    font-family: 'Cormorant Garamond', serif;
+}
+
+
+.first p {
+    margin-top: 1%;
+    font-size: calc(4px + 1vw);
+}
+
+.first-a{
+    display: flex;
+    flex-direction: row;
+    font-size: calc(2px + 1vw);
+    padding-bottom: 1%;
+    margin-left: 2%;
+}
+
+
+.first-b{
+    display: flex;
+    flex-direction: column;
+    padding-right: 2%;
+}
+
+
+.inside{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.inside p{
+    width: 90%;
+}
+
+img{
+    padding-top: 1%;
+    padding-left: 2%;
+    width: 20%;
+    height: 10%;
+    border-radius: 25%;
+}
+
+main h2{
+    margin:auto;
+    width: 90%;
+    padding-top: 4%;
+    background-color: white;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+#one{
+    color: darkolivegreen;
+}
+
+#two{
+    color: darkkhaki;
+}
+
+#three{
+    color: maroon;
+}
+
+#four{
+    color: black;
+}
+
+.button {
+    transition-duration: 0.4s;
+    border-radius: 50%;
+    background-color: #EADBC8;
+    color: black;
+    border: 2px solid black;
+    padding: 5%;
+    width: 32%;
+    margin: auto;
+    font-size: calc(2px + 1vw);
+}
+
+.button:hover {
+    color: black;
+    text-decoration: none;
+    padding: 5%;
+    background: linear-gradient(to right, green, white, red);
+}
+
+.button-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+hr{
+    width: 90%;
+    margin: auto;
+}
+
+#srv{
+    max-height: 40vh;
+}
+
+.button-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.buttonforpage {
+    transition-duration: 0.4s;
+    border-radius: 100%;
+    background-color: #F6D7CB;
+    color: black;
+    border: 2px solid black;
+    padding: 1%;
+    width: 10%;
+    font-size: calc(4px + 1vw);
+}
+
+
+footer {
+    background: linear-gradient(to right, green, white, red);
+}
+
+footer p {
+    text-align: center;
+    color: black;
+    padding: 2%;
+    margin: 2% auto;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 1000px) {
+    nav a {
+        font-size: calc(11px + 1vw);
+    }
+
+    #button {
+        font-size: calc(9px + 1vw);
+        text-align: center;
+    }
+}
