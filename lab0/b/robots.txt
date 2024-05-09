@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /cs-103/
+Allow: /cs-103/lab3/b
+
+Sitemap: /mantebeasitemap.xml
