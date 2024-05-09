@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant Garamond', serif;
+    background-color: black;
+}
+
+
+#page-wrapper {
+    text-align: center;
+    color: #EADBC8;
+    width: 100vw;
+    height: 100%;
+    margin: auto;
+}
+
+
+#container {
+    position: relative;
+    height: 108vh;
+    z-index: 1;
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../mexican/mexicanpage1/src/mexican.jpg");
+}
+
+
+#container h3 {
+    position: absolute;
+    z-index: 2;
+    font-size: calc(10px + 2vw);
+    font-family: Bai Jamjuree, sans-serif;
+    color: white;
+    align-self: center;
+    left: 19%;
+    right: -30%;
+    width: 60%;
+    bottom: 42%;
+}
+
+
+
+
+#container h2 {
+    position: absolute;
+    z-index: 2;
+    padding: 0 0;
+    font-size: calc(6px + 2vw);
+    font-family: Bai Jamjuree, sans-serif;
+    color: white;
+    align-self: center;
+    left: 19%;
+    right: -30%;
+    width: 60%;
+    bottom: 30%;
+}
+
+
+
+
+header {
+    color: transparent;
+}
+
+
+nav {
+    position: absolute;
+    z-index: 2;
+    color: black;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style: none;
+    font-size: calc(2px + 2vw);
+    padding-left: 0;
+}
+
+
+nav li {
+    display: inline;
+    margin: 0 5%;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+
+#container h3 {
+    position: absolute;
+    z-index: 2;
+    font-size: calc(10px + 2vw);
+    font-family: 'Playfair Display', serif;
+    color: white;
+    left: 19%;
+    right: -30%;
+    width: 60%;
+    bottom: 42%;
+}
+
+
+#container h2 {
+    position: absolute;
+    z-index: 2;
+    padding: 0 0;
+    font-size: calc(6px + 2vw);
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+    left: 19%;
+    right: -30%;
+    width: 60%;
+    bottom: 30%;
+}
+
+
+#taquerialink a {
+    text-decoration: none;
+}
+
+
+.sectiontaqueria {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.sectiontaqueria h2{
+    font-family: 'Playfair Display', serif;
+}
+
+
+#sectiontaqueriaimg {
+    height: 150%;
+    background: url("src/vtc.jpeg") center/cover no-repeat;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+#sectiontaqueriatext {
+    box-sizing: border-box;
+    text-align: justify;
+    margin-left: 5%;
+    margin-top: 4%;
+    font-size: calc(3px + 1.3vw);
+    width: 100%;
+    height: 100%;
+}
+
+
+#labrasalink a {
+    text-decoration: none;
+}
+
+
+.sectionlabrasa {
+    background-color: black;
+    color: white;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.sectionlabrasa h2 {
+    font-family: 'Playfair Display', serif;
+
+}
+
+#sectionlabrasaimg {
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../mexican/mexicanpage1/src/lab.jpg");
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+#sectionlabrasatext {
+    margin-left: 5%;
+    margin-top: 4%;
+    box-sizing: border-box;
+    text-align: justify;
+    font-size: calc(3px + 1.3vw);
+    width: 100%;
+    height: 100%;
+}
+
+
+#ydtlink a {
+    text-decoration: none;
+}
+
+
+.sectionydt {
+    background-color: black;
+    color: white;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.sectionydt h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+
+#sectionydtimg {
+    height: 100%;
+    background: url("src/ydt.jpg") center/cover no-repeat;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+#sectionydttext {
+    margin-left: 5%;
+    margin-top: 1%;
+    box-sizing: border-box;
+    text-align: justify;
+    font-size: calc(3px + 1.3vw);
+    width: 100%;
+    height: 100%;
+}
+
+
+#lclink a {
+    text-decoration: none;
+}
+
+
+.sectionlc {
+    background-color: black;
+    color: white;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.sectionlc h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+#sectionlcimg {
+    height: 100%;
+    background: url("src/lc.jpeg") center/cover no-repeat;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#sectionlctext {
+    box-sizing: border-box;
+    text-align: justify;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: calc(3px + 1.3vw);
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    background: linear-gradient(to right, darkred, red, orangered, indianred, palevioletred, pink, lightpink, white);
+}
+
+footer p {
+    text-align: center;
+    color: black;
+    padding: 2%;
+    margin: 2%;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.buttonforpage {
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 1% 2%;
+    width: 100%;
+    font-size: calc(10px + 1vw);
+}
+
+
+.buttonforpage:hover {
+    color: white;
+    text-decoration: none;
+    padding: 1% 2%;
+    background: linear-gradient(to right, darkred, red, darkred);
+}
