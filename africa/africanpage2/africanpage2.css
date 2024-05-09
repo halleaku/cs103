@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+#pagewrapper {
+    text-align: center;
+    color: white;
+    width: 100vw;
+    height: 100%;
+    margin: auto;
+}
+
+
+#homepageSection {
+    position: relative;
+    height: 120vh;
+    z-index: 1;
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("src/africatopsection.jpg");
+    margin-bottom: 3%;
+}
+
+
+header {
+    color: transparent;
+}
+
+
+nav {
+    position: absolute;
+    z-index: 2;
+    top: 10%;
+    width: 100%;
+}
+
+
+nav ul {
+    list-style: none;
+    font-size: calc(2px + 2vw);
+    padding-left: 0;
+}
+
+
+nav li {
+    display: inline;
+    margin: 0 5%;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+
+#homepageSection h3 {
+    position: absolute;
+    z-index: 2;
+    font-size: calc(10px + 2vw);
+    font-family: 'Playfair Display', serif;
+    color: white;
+    align-self: center;
+    left: 25%;
+    right: 25%;
+    width: 50%;
+    bottom: 42%;
+}
+
+
+#homepageSection h2 {
+    position: absolute;
+    z-index: 2;
+    padding: 0 0;
+    font-size: calc(6px + 2vw);
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+    align-self: center;
+    left: 19%;
+    right: -30%;
+    width: 60%;
+    bottom: 30%;
+}
+
+
+
+
+footer {
+    color: black;
+}
+
+
+#betweener {
+    background: linear-gradient(to right, saddlebrown, orange, saddlebrown);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Playfair Display', serif;
+    font-size: calc(10px + 1vw);
+}
+
+
+.sectionsuya {
+    background: linear-gradient(to bottom, #FFD700, #FFA500, #FF4500);
+    color: white;
+    height: 110vh;
+    text-align: center;
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#sectionsuyaimg {
+    height: 40%;
+    background: url("src/suya.jpg") center/cover no-repeat;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 3%;
+}
+
+
+.sectionsuyatext {
+    width: 80%; /* Adjust the width as needed */
+    margin: 10%; /* Center the div horizontally */
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+
+.sectionsuya p {
+    font-family: 'Cormorant Garamond', serif;
+    color: black;
+    font-size: calc(5px + 1vw);
+}
+
+
+#buttonsuya:hover {
+    color: white;
+    text-decoration: none;
+    padding: 1% 4%;
+    background: black;
+}
+
+
+#buttonsuya {
+    color: black;
+    text-decoration: none;
+    padding: 1% 4%;
+    background: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: calc(6px + 1vw)
+}
+
+
+#betweenerashur {
+    background: linear-gradient(to right, saddlebrown, orange, saddlebrown);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Playfair Display', serif;
+    font-size: calc(10px + 1vw);
+}
+
+
+.sectionashur {
+    background: linear-gradient(to bottom, #FF4500, #FFA500, #FFD700);
+    color: white;
+    height: 104vh;
+    text-align: center;
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#sectionashurimg {
+    height: 40%;
+    background: url("src/ashur2.jpg") center/cover no-repeat;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 3%;
+    crop: inherit;
+}
+
+
+.sectionashurtext {
+    width: 80%; /* Adjust the width as needed */
+    margin: 10%; /* Center the div horizontally */
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+
+.sectionashur p {
+    font-family: 'Cormorant Garamond', serif;
+    color: black;
+    font-size: calc(5px + 1vw);
+}
+
+
+#buttonashur:hover {
+    color: white;
+    text-decoration: none;
+    padding: 1% 4%;
+    background: black;
+}
+
+
+#buttonashur {
+    color: black;
+    text-decoration: none;
+    padding: 1% 4%;
+    background: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: calc(6px + 1vw)
+}
+
+
+#betweenerdayib {
+    background: linear-gradient(to right, saddlebrown, orange, saddlebrown);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Playfair Display', serif;
+    font-size: calc(10px + 1vw);
+}
+
+
+.sectiondayib {
+    background: linear-gradient(to bottom, #FFD700, #FFA500, #FF4500);
+    color: white;
+    height: 110vh;
+    text-align: center;
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#sectiondayibimg {
+    height: 40%;
+    background: url("src/dayib.jpg") center/cover no-repeat;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 3%;
+}
+
+
+.sectiondayibtext {
+    width: 80%; /* Adjust the width as needed */
+    margin: 10%; /* Center the div horizontally */
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+
+.sectiondayib p {
+    font-family: 'Cormorant Garamond', serif;
+    color: black;
+    font-size: calc(5px + 1vw);
+}
+
+
+#buttondayib:hover {
+    color: white;
+    text-decoration: none;
+    padding: 1% 4%;
+    background: black;
+}
+
+#buttondayib {
+    color: black;
+    text-decoration: none;
+    padding: 1% 4%;
+    background: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: calc(6px + 1vw)
+}
+
+footer {
+    background: linear-gradient(to right, black, saddlebrown, orange, white);
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    padding: 2%;
+    margin: 2% auto;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.buttonforpage {
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 1% 2%;
+    width: 100%;
+    font-size: calc(10px + 1vw);
+}
+
+
+.buttonforpage:hover {
+    color: black;
+    text-decoration: none;
+    padding: 1% 3%;
+    background: linear-gradient(to bottom, #FFD700, #FFA500, #FF4500);
+}
+
+
+@media screen and (max-width: 1000px) {
+    nav a {
+        font-size: calc(11px + 1vw);
+    }
+
+    #button {
+        font-size: calc(8px + 1vw);
+    }
+
+    .sectionsuya {
+        max-width: 80%;
+        margin-left: 9%;
+        height: 100vh;
+    }
+
+    .sectionsuya p {
+        font-size: small;
+        width: 80%;
+        margin-left: 9%;
+    }
+
+    #buttonsuya {
+        font-size: calc(7px + 1vw);
+    }
+
+    .sectionashur {
+        max-width: 80%;
+        margin-left: 9%;
+        height: 110vh;
+    }
+
+    .sectionashur p {
+        font-size: small;
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    #buttonashur {
+        font-size: calc(7px + 1vw); /* Adjust the font size for smaller screens */
+    }
+
+    .sectiondayib {
+        max-width: 80%;
+        margin-left: 9%;
+        height: 120vh;
+    }
+
+    .sectiondayib p {
+        font-size: small;
+        width: 55%;
+        margin-left: 22%;
+    }
+
+    #buttonashur {
+        font-size: calc(7px + 1vw);
+    }
+}
